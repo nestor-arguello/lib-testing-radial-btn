@@ -2,24 +2,25 @@
 #piemenu { height: 400px; width: 400px; margin:auto; }
 @media (max-width: 400px) { #piemenu { height: 300px; width: 300px; } }
 
-[class|=wheelnav-piemenu-slice-basic] { fill: #497F4C; stroke: none; }
-[class|=wheelnav-piemenu-slice-selected] { fill: #497F4C; stroke: none; }
-[class|=wheelnav-piemenu-slice-hover] { fill: #497F4C;  stroke: none; fill-opacity: 0.77; cursor: pointer; }
+[class|=wheelnav-piemenu-slice-basic] { fill: #4E4E4E; stroke:#807F80 ; }
+[class|=wheelnav-piemenu-slice-selected] { fill: #A0D300; stroke: none; }
+[class|=wheelnav-piemenu-slice-hover] { fill: #A0D300;  stroke: none; fill-opacity: 1; cursor: pointer; }
 
 [class|=wheelnav-piemenu-title-basic] { fill: #333; stroke: none; }
 [class|=wheelnav-piemenu-title-selected] { fill: #fff; stroke: none; }
 [class|=wheelnav-piemenu-title-hover] { fill: #222; stroke: none; cursor: pointer; }
 
 .wheelnav-piemenu-spreader-in,
-.wheelnav-piemenu-spreader-out { fill: #444; stroke: #444; stroke-width: 2; cursor: pointer; }
+.wheelnav-piemenu-spreader-out { fill: #4E4E4E; stroke: #4E4E4E; stroke-width: 2; cursor: pointer; }
 .wheelnav-piemenu-spreadertitle-in,
-.wheelnav-piemenu-spreadertitle-out { fill: #eee; stroke: #444; cursor: pointer; }
+.wheelnav-piemenu-spreadertitle-out { fill: #eee; stroke: #4E4E4E; cursor: pointer; }
 
-.wheelnav-piemenu-marker { stroke: #444; stroke-width: 2; }
+.wheelnav-piemenu-marker { stroke: #4E4E4E; stroke-width: 2; }
 
 /* #### Override  #### */
 #piemenu {
   position: fixed;
-  bottom: -80px;
-  right: -80px;
+  bottom: -100px;
+  right: -100px;
 }
+
