@@ -1,0 +1,44 @@
+#globemenu > svg { width: 100%; height: 100%; }
+#globemenu { height: 400px; width: 400px; margin:auto; }
+@media (max-width: 400px) { #globemenu { height: 300px; width: 300px; } }
+
+/* [class|=wheelnav-globemenu-slice-basic] { fill: #4E4E4E; stroke: none; }
+[class|=wheelnav-globemenu-slice-selected] { fill: #A0D300; stroke: none; }
+[class|=wheelnav-globemenu-slice-hover] { fill: #A0D300;  stroke: none; fill-opacity: 1; cursor: pointer; } */
+
+[class|=wheelnav-globemenu-slice-basic-0] { fill: #A60059; stroke: none; }
+[class|=wheelnav-globemenu-slice-selected-0] { fill: #A60059; stroke: none; }
+[class|=wheelnav-globemenu-slice-hover-0] { fill: #A60059; stroke: none; fill-opacity: 0.75; cursor: pointer; }
+
+[class|=wheelnav-globemenu-slice-basic-1] { fill: #04b304; stroke: none; }
+[class|=wheelnav-globemenu-slice-selected-1] { fill: #04b304; stroke: none; }
+[class|=wheelnav-globemenu-slice-hover-1] { fill: #04b304; stroke: none; fill-opacity: 0.75; cursor: pointer; }
+
+[class|=wheelnav-globemenu-slice-basic-2] { fill: #F99A00; stroke: none; }
+[class|=wheelnav-globemenu-slice-selected-2] { fill: #F99A00; stroke: none; }
+[class|=wheelnav-globemenu-slice-hover-2] { fill: #F99A00; stroke: none; fill-opacity: 0.75; cursor: pointer; }
+
+[class|=wheelnav-globemenu-slice-basic-3] { fill: #3D99E7; stroke: none; }
+[class|=wheelnav-globemenu-slice-selected-3] { fill: #3D99E7; stroke: none; }
+[class|=wheelnav-globemenu-slice-hover-3] { fill: #3D99E7; stroke: none; fill-opacity: 0.75; cursor: pointer; }
+
+
+[class|=wheelnav-globemenu-title-basic] { fill: #333; stroke: none; }
+[class|=wheelnav-globemenu-title-selected] { fill: #fff; stroke: none; }
+[class|=wheelnav-globemenu-title-hover] { fill: #222; stroke: none; cursor: pointer; }
+
+[class|=wheelnav-globemenu-line-basic] { stroke: none; stroke-width: 1; }
+[class|=wheelnav-globemenu-line-selected] { stroke: none; stroke-width: 1; }
+[class|=wheelnav-globemenu-line-hover] { stroke: none; stroke-width: 2; cursor: pointer; }
+
+.wheelnav-globemenu-spreader-in,
+.wheelnav-globemenu-spreader-out { fill: #444; stroke: #444; stroke-width: 2; cursor: pointer; }
+.wheelnav-globemenu-spreadertitle-in,
+.wheelnav-globemenu-spreadertitle-out { fill: #eee; stroke: #444; cursor: pointer; }
+
+/* #### Override  #### */
+#globemenu {
+  position: fixed;
+  bottom: -100px;
+  right: -100px;
+}
